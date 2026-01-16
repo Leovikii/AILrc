@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  user-select: none;
+  background-color: transparent;
+  font-family: "Microsoft YaHei", sans-serif;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.anim-basic {
+  transition-property: opacity, transform, background-color, border-color, box-shadow;
+  transition-duration: 0.25s;
+  transition-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.anim-fade {
+  transition: opacity 0.3s ease-out;
+}
+
+.lrc-text {
+  font-family: "Microsoft YaHei", sans-serif;
+}
