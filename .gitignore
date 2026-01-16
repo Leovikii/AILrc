@@ -2,6 +2,7 @@ build/bin/
 frontend/dist/
 frontend/node_modules/
 wailsjs/
+backup/
 *.exe
 *.dll
 *.so
